@@ -2,14 +2,13 @@
 
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
-    
+    return Math.sqrt(value);
     // return the square root of the value
 }
 
 // TODO: Implement square function
 function calculateSquare(value) {
-    // Hint: Use exponentiation
-    // return the square root of the value
+    return value*value
 
 }
 
