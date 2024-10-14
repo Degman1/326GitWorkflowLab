@@ -15,10 +15,11 @@ function calculateSquare(value) {
 
 // BUG: FIX reciprocal function
 function calculateReciprocal(value) {
-    // Hint: Reciprocal is 1/x
-    // return the square root of the value
-    return 1* value;
-
+     // Cannot divide by 0
+     if (value === 0) {
+        throw new Error("0 does not have a reciprocal");
+    }
+    return 1 / value;
 }
 
 // TODO: Implement natural log function
